@@ -1,3 +1,24 @@
 body {
   background: hotpink;
 }
+
+.navbar {
+  /* display: flex; */
+  /* display: block; */
+}
+
+.nav {
+  color: white;
+  border-radius: 100%;
+  border: none;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 3px lightgrey;
+  background: radial-gradient( lightpink, hotpink);
+  display: block;
+}
+
+.nav:hover {
+    background: hotpink;
+}
