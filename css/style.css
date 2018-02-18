@@ -1,12 +1,29 @@
 body {
-  background: hotpink;
+  background: #DF4E9F;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  color: #6B717E;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  color: #DF4E9F;
+  font-family: 'Playfair Display', serif;
+}
+
+h4 {
+  color: #FFBED5;
 }
 
 .navbar {
-  /* display: flex; */
-  /* display: block; */
+  position: fixed;
+  z-index: 9999;
 }
 
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif; */
 .nav {
   color: white;
   border-radius: 100%;
@@ -14,11 +31,36 @@ body {
   text-align: center;
   width: 100px;
   height: 100px;
-  box-shadow: 5px 5px 3px lightgrey;
-  background: radial-gradient( lightpink, hotpink);
+  box-shadow: 5px 5px 3px #A4A9B5;
+  background: radial-gradient( #FFBED5, #FFA2CD);
   display: block;
 }
 
 .nav:hover {
-    background: hotpink;
+    background: #DF4E9F;
+}
+
+hr {
+  border: #DF4E9F solid 3px;
+}
+
+#about-section {
+  background-color: white;
+
+}
+
+#projects-section, #contact-section {
+  background-color: black;
+  color: white;
+
+}
+
+#projects-section img {
+  max-width: 300px;
+  /* max-height: 300px; */
+  border-radius: 100%;
+}
+
+span {
+  font-weight: bold;
 }
