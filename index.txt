@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -22,13 +22,13 @@
 
 
 
-  <title>Charlotte's Portfolio</title>
+  <!-- <title>Charlotte's Portfolio</title>
 </head>
 
 <body>
   <main>
 
-  
+
     <div id="fullpage">
     <div class="section">
 
@@ -48,18 +48,7 @@
 
     	<div class="section">
 
-      <div class="container">
 
-        <div id="about-section">
-
-          <h2>About Me</h2>
-
-          <p>I’ve been searching for the thing that makes me look forward to going into work everyday.
-            The more I code, the more it feels like development is the right path for me. It utilises my logical and intellectually curious brain, creativity, business acumen and commitment to hard work that I have developed so far in my career.  I am naturally ambitious and driven and the small but frequent wins from debugging and passing tests really motivate my continued success.  I’m really excited that the skills I have learnt are already allowing me to build my ideas into something physical.  I am buzzing with ideas and would value working for an organisation that encourages innovation and creativity.</p>
-            <br>
-            <p>After some courses online, studying Web Development full-time seemed like the obvious next step. I see my decision to study at General Assembly as an investment in myself and my future. I aspire to work in an organisation who sees my potential and are willing to continue to develop me so that over time, I can continue to contribute to the organisation.</p>
-</div>
-          </div>
         </div>
 
 
@@ -119,38 +108,28 @@
 
 
 
+    <div class="cv">
+      <h3>Experience</h3>
+      <h4>Web Development Immersive - General Assembly - November 2017 - April 2018</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h4>Interim Global Digital Marketing Manager - August - November 2017<br>
+        CRCC Asia - Leading supplier of internships in China
+      </h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>Education</h3>
+      <p>Web Development Immersive - General Assembly - November 2017 - April 2018</p>
+      <p>First Class Degree in Classical Studies from Royal Holloway, University of London - September 2010 - June 2014</p>
+      <h3>Voluntary Experience</h3>
+      <h4>Deputy Clerk - Events - May 2017 - present<br>The Guild of Young Freemen</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>Other Interests</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
 
 
 
 
-      <div class="container">
-
-        <div id="cv-section">
-
-          <h2>CV</h2>
-
-          <div class="cv">
-            <h3>Experience</h3>
-            <h4>Web Development Immersive - General Assembly - November 2017 - April 2018</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h4>Interim Global Digital Marketing Manager - August - November 2017<br>
-              CRCC Asia - Leading supplier of internships in China
-            </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h3>Education</h3>
-            <p>Web Development Immersive - General Assembly - November 2017 - April 2018</p>
-            <p>First Class Degree in Classical Studies from Royal Holloway, University of London - September 2010 - June 2014</p>
-            <h3>Voluntary Experience</h3>
-            <h4>Deputy Clerk - Events - May 2017 - present<br>The Guild of Young Freemen</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h3>Other Interests</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-
-        </div>
-
-      </div>
 
       <div class="container">
 
@@ -164,21 +143,7 @@
         </div>
       </div>
 
-      <div class="container">
 
-        <div id="contact-section">
-
-          <h2>Contact Me</h2>
-
-          <div class="contact">
-            <p>Email</p>
-            <p>LinkedIn</p>
-            <p>GitHub</p>
-          </div>
-
-        </div>
-
-      </div>
       <div>
     </main>
 
@@ -189,4 +154,4 @@
 
 
     </body>
-    </html>
+    </html> --> -->
