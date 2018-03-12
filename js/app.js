@@ -1,8 +1,17 @@
 console.log('working');
 console.log('ready');
 
-//
-// $(function (){
+
+function init(){
+
+  $(document).ready(function() {
+
+    $('#fullpage').fullpage();
+  });
+
+}
+
+init();
 //
 //   $('#about').click(function() {
 //     $('html, body').animate({
