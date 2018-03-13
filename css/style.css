@@ -111,12 +111,14 @@ hr {
 
 .intro {
   margin-top: 50px;
-  background-image: url('../images/charlotte2.png');
+  background-image: url('../images/charlotte3.png');
   width: 100%;
   background-position: center;
-  padding: 200px 400px 275px 75px;
+  200px 450px 275px 5px
   background-repeat: no-repeat;
 }
+
+
 
 .intro-pink {
   background-image: url('../images/Charlotte Davies Software Developer.jpg');
@@ -219,6 +221,7 @@ hr {
 .projects-pink .project-nav {
   background-color: #DF4E9F;
   color: white;
+  /*  this isnt working */
 }
 
 
