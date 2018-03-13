@@ -109,16 +109,24 @@ hr {
 
 /* splash */
 
-.intro-pink .intro {
+.intro {
   margin-top: 50px;
-  background-image: url('../images/Charlotte Davies Software Developer.jpg');
+  background-image: url('../images/charlotte2.png');
   width: 100%;
   background-position: center;
   padding: 200px 400px 275px 75px;
   background-repeat: no-repeat;
 }
 
+.intro-pink {
+  background-image: url('../images/Charlotte Davies Software Developer.jpg');
+}
+
 .about {
+  background-color: #6B717E;
+}
+
+.about-pink {
   background-color: #DF4E9F;
 }
 
@@ -127,6 +135,10 @@ hr {
 }
 
 .skills {
+  background-color: #6B717E;
+}
+
+.skills-pink {
   background-color: #DF4E9F;
 }
 
@@ -135,6 +147,10 @@ hr {
 }
 
 .interests {
+  background-color: #6B717E;
+}
+
+.interests-pink {
   background-color: #DF4E9F;
 }
 
@@ -146,7 +162,6 @@ hr {
 /* fullPage scroll styling */
 
 #about-section {
-  color: black;
   font-size: 20px;
   font-weight: bold;
 }
@@ -160,6 +175,10 @@ hr {
 }
 
 .projects h2, .cv h2 {
+  color: #A4A9B5;
+}
+
+.projects-pink h2, .cv-pink h2 {
   color: #DF4E9F;
 }
 
@@ -189,13 +208,19 @@ hr {
 }
 
 .project-nav {
-  background-color: #DF4E9F;
+  background-color: white;
+  color: #6B717E;
   padding: 5px 0px;
   border-radius: 25%;
   margin: 5px;
-  color: white;
   font-weight: bold;
 }
+
+.projects-pink .project-nav {
+  background-color: #DF4E9F;
+  color: white;
+}
+
 
 
 #skills-section {
