@@ -4,6 +4,18 @@ console.log('ready');
 
 
 $(() => {
+
+  const $theme = $('.theme');
+  const $navbar = $('.navbar');
+  const $intro = $('.intro');
+  const $about = $('.about');
+  const $projects = $('.projects');
+  const $skills = $('.skills');
+  const $cv = $('.cv');
+  const $interests = $('.interests');
+  const $contact = $('.contact');
+
+
   $('#fullpage').fullpage();
 
   $('.slider-for').slick({
@@ -22,10 +34,16 @@ $(() => {
     centerMode: true,
     focusOnSelect: true
   });
+
+  $theme.click(function() {
+    $navbar.toggleClass('navbar-pink')
+    $intro.toggleClass('intro-pink');
+    $about.toggleClass('about-pink');
+    $projects.toggleClass('projects-pink');
+    $skills.toggleClass('skills-pink');
+    $cv.toggleClass('cv-pink');
+    $interests.toggleClass('interests-pink');
+    $contact.toggleClass('contact-pink');
+  });
+
 });
-
-
-
-// $(document).ready(function(){
-//
-// });

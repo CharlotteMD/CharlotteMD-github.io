@@ -10,7 +10,6 @@ body {
 h1 {
   font-weight: 500px;
   font-family: 'Raleway', sans-serif;
-  color: #FFBED5;
 }
 
 h2 {
@@ -48,10 +47,26 @@ p {
 /* navbar w main title */
 
 .navbar {
+  background-color:  #FFBED5;
+}
+
+.navbar-pink {
   background-color: #DF4E9F;
 }
 
 .nav {
+  color: #6B717E;
+  border-radius: 100%;
+  border: none;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 3px #A4A9B5;
+  background: radial-gradient( white, #6B717E);
+  display: block;
+}
+
+.navbar-pink .nav {
   color: white;
   border-radius: 100%;
   border: none;
@@ -64,7 +79,12 @@ p {
 }
 
 .nav:hover {
-    background: #DF4E9F;
+  background: radial-gradient(#6B717E, white);
+  color: white;
+}
+
+.navbar-pink .nav:hover {
+  background: #DF4E9F;
 }
 
 hr {
@@ -75,18 +95,26 @@ hr {
   background-image: #6B717E;
 }
 
+.charlotte h1 {
+  color: #DF4E9F;
+}
+
+.navbar-pink .charlotte h1 {
+  color: #FFBED5;
+}
+
 .charlotte h2 {
   color: #6B717E;
 }
 
+/* splash */
 
-
-.intro {
+.intro-pink .intro {
   margin-top: 50px;
   background-image: url('../images/Charlotte Davies Software Developer.jpg');
   width: 100%;
   background-position: center;
-  padding: 200px 400px 310px 75px;
+  padding: 200px 400px 275px 75px;
   background-repeat: no-repeat;
 }
 
