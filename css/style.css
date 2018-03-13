@@ -52,7 +52,6 @@ p {
 }
 
 .nav {
-
   color: white;
   border-radius: 100%;
   border: none;
@@ -69,8 +68,18 @@ p {
 }
 
 hr {
-  border: #A4A9B5 solid 1px;
+  border: 0;
+  height: 1px;
+  width: 300px;
+  background: #6B717E;
+  background-image: #6B717E;
 }
+
+.charlotte h2 {
+  color: #6B717E;
+}
+
+
 
 .intro {
   margin-top: 50px;
@@ -109,19 +118,40 @@ hr {
 /* fullPage scroll styling */
 
 #about-section {
-
-}
-
-.textAbout {
   color: black;
   font-size: 20px;
   font-weight: bold;
-
 }
 
+.about h2 {
+  color: #FFA2CD;
+}
+
+.about p {
+  color: white;
+}
+
+.projects h2, .cv h2 {
+  color: #DF4E9F;
+}
+
+.projects h3, .cv h3 {
+  color: #FFA2CD;
+}
+
+.projects h4, .cv h4 {
+  color: #A4A9B5;
+}
+
+.cv h5 {
+  color: white;
+}
+
+.projects p, .cv p {
+  color: white;
+}
 
 #project-section {
-  /* background-color: #FFA2CD; */
   text-align: center;
 }
 
@@ -131,10 +161,12 @@ hr {
 }
 
 .project-nav {
-  background-color: #FFA2CD;
-  padding: 5px;
+  background-color: #DF4E9F;
+  padding: 5px 0px;
   border-radius: 25%;
   margin: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 
