@@ -1,25 +1,52 @@
+/* basic styling */
+
 body {
-  background: #DF4E9F;
-  font-family: 'Raleway', sans-serif;
+  /* background: #DF4E9F; */
   text-align: center;
   justify-content: center;
   width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 500px;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
-  color: #6B717E;
+  /* color: #6B717E; */
   font-family: 'Playfair Display', serif;
   text-align: center;
+  font-weight: 350px;
 }
 
 h3 {
-  color: #DF4E9F;
+  /* color: #DF4E9F; */
   font-family: 'Playfair Display', serif;
+  font-weight: 250px;
 }
 
 h4 {
-  color: #FFBED5;
+  /* color: #FFBED5; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200px;
 }
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 150px;
+}
+
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 50px;
+}
+
 
 /* navbar w main title */
 
@@ -43,32 +70,31 @@ hr {
   border: #A4A9B5 solid 1px;
 }
 
-main {
-  justify-content: center;
-}
 
-.section {
+/* fullPage scroll styling */
+
+/* .section {
   max-height: 950px;
-}
+  max-width: 900px;
+} */
 
 #about-section {
   margin-top: 50px;
   background-image: url('../images/Charlotte Davies Software Developer.jpg');
   width: 100%;
   background-position: center;
-  padding-top: 30px;
-  padding-bottom: 150px;
-  padding-left: 240px;
-  padding-right: 50px;
+  padding: 30px 75px 50px 75px;
   background-repeat: no-repeat;
   color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
 #skills-section {
   font-size: 50px;
   color: #FFBED5;
-  font-family: 'Raleway', sans-serif;
+
 }
 
 #skills-section p {
@@ -100,7 +126,7 @@ main {
 
 
 #project-section {
-  background-color: #FFA2CD;
+  /* background-color: #FFA2CD; */
   justify-content: center;
 }
 
@@ -112,13 +138,13 @@ main {
 
 
 #cv-section {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
 }
 
 #contact-section {
-  background-color: #A4A9B5;
-  color: white;
+  /* background-color: #A4A9B5; */
+  /* color: white; */
 }
 
 /* #projects-section img {
