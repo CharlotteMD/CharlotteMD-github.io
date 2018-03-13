@@ -7,17 +7,17 @@ $(() => {
   $('#fullpage').fullpage();
 
   $('.slider-for').slick({
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     arrows: false,
     fade: true,
     asNavFor: '.slider-nav'
   });
   $('.slider-nav').slick({
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     asNavFor: '.slider-for',
-    dots: true,
+    dots: false,
     centerMode: true,
     focusOnSelect: true
   });
