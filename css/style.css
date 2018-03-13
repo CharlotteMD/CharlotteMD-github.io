@@ -99,9 +99,17 @@ main {
 
 
 
-#projects-section {
+#project-section {
   background-color: #FFA2CD;
+  justify-content: center;
 }
+
+#project-section img {
+  max-height: 200px;
+  width: auto;
+
+}
+
 
 #cv-section {
   background-color: black;
