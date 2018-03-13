@@ -18,6 +18,7 @@ $(() => {
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     dots: false,
+    arrows: false,
     centerMode: true,
     focusOnSelect: true
   });

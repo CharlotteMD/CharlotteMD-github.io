@@ -1,7 +1,6 @@
 /* basic styling */
 
 body {
-  /* background: #DF4E9F; */
   text-align: center;
   justify-content: center;
   width: 100%;
@@ -11,23 +10,21 @@ body {
 h1 {
   font-weight: 500px;
   font-family: 'Raleway', sans-serif;
+  color: #FFBED5;
 }
 
 h2 {
-  /* color: #6B717E; */
   font-family: 'Playfair Display', serif;
   text-align: center;
   font-weight: 350px;
 }
 
 h3 {
-  /* color: #DF4E9F; */
   font-family: 'Playfair Display', serif;
   font-weight: 250px;
 }
 
 h4 {
-  /* color: #FFBED5; */
   font-family: 'Raleway', sans-serif;
   font-weight: 200px;
 }
@@ -50,7 +47,12 @@ p {
 
 /* navbar w main title */
 
+.navbar {
+  background-color: #DF4E9F;
+}
+
 .nav {
+
   color: white;
   border-radius: 100%;
   border: none;
@@ -70,24 +72,69 @@ hr {
   border: #A4A9B5 solid 1px;
 }
 
-
-/* fullPage scroll styling */
-
-/* .section {
-  max-height: 950px;
-  max-width: 900px;
-} */
-
-#about-section {
+.intro {
   margin-top: 50px;
   background-image: url('../images/Charlotte Davies Software Developer.jpg');
   width: 100%;
   background-position: center;
-  padding: 30px 75px 50px 75px;
+  padding: 200px 400px 310px 75px;
   background-repeat: no-repeat;
+}
+
+.about {
+  background-color: #DF4E9F;
+}
+
+.projects {
+  background-color: black;
+}
+
+.skills {
+  background-color: #DF4E9F;
+}
+
+.cv {
+  background-color: black;
+}
+
+.interests {
+  background-color: #DF4E9F;
+}
+
+.contact {
+  background-color: black;
+  width: 100%;
+}
+
+/* fullPage scroll styling */
+
+#about-section {
+
+}
+
+.textAbout {
   color: black;
   font-size: 20px;
   font-weight: bold;
+
+}
+
+
+#project-section {
+  /* background-color: #FFA2CD; */
+  text-align: center;
+}
+
+#project-section img {
+  max-height: 200px;
+  width: auto;
+}
+
+.project-nav {
+  background-color: #FFA2CD;
+  padding: 5px;
+  border-radius: 25%;
+  margin: 5px;
 }
 
 
@@ -125,16 +172,7 @@ hr {
 
 
 
-#project-section {
-  /* background-color: #FFA2CD; */
-  justify-content: center;
-}
 
-#project-section img {
-  max-height: 200px;
-  width: auto;
-
-}
 
 
 #cv-section {
