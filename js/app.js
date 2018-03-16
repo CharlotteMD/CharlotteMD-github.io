@@ -60,39 +60,27 @@ $(() => {
   });
 
   $aboutLink.click(() => {
-    $('html, body').animate({
-      scrollTop: $aboutSection.offset().top
-    }, 1000);
+    $('html, body').unbind().animate({scrollTop: $aboutSection.offset().top-200}, 1000);
   });
 
   $projectLink.click(() => {
-    $('html, body').animate({
-      scrollTop: $projectSection.offset().top
-    }, 1000);
+    $('html, body').unbind().animate({scrollTop: $projectSection.offset().top-200}, 1000);
   });
 
   $skillsLink.click(() => {
-    $('html, body').animate({
-      scrollTop: $skillsSection.offset().top
-    }, 1000);
+    $('html, body').unbind().animate({scrollTop: $skillsSection.offset().top-200}, 1000);
   });
 
   $cvLink.click(() => {
-    $('html, body').animate({
-      scrollTop: $cvSection.offset().top
-    }, 1000);
+    $('html, body').unbind().animate({scrollTop: $cvSection.offset().top-200}, 1000);
   });
 
   $interestsLink.click(() => {
-    $('html, body').animate({
-      scrollTop: $interestsSection.offset().top
-    }, 1000);
+    $('html, body').unbind().animate({scrollTop: $interestsSection.offset().top-200}, 1000);
   });
 
   $contactLink.click(() => {
-    $('html, body').animate({
-      scrollTop: $contactSection.offset().top
-    }, 1000);
+    $('html, body').unbind().animate({scrollTop: $contactSection.offset().top-200}, 1000);
   });
 
 });

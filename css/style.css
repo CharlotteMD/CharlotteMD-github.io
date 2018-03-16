@@ -54,9 +54,10 @@ main {
 
 .navbar {
   background-color:  #FFBED5;
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   width: 100%;
+  z-index: 999;
 }
 
 .navbar-pink {
