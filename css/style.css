@@ -43,11 +43,20 @@ p {
   font-weight: 50px;
 }
 
+/* Main content */
+
+main {
+    margin-top: 200px; /* Add a top margin to avoid content overlay */
+}
+
 
 /* navbar w main title */
 
 .navbar {
   background-color:  #FFBED5;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
 }
 
 .navbar-pink {
@@ -256,10 +265,10 @@ span {
   flex-wrap: wrap;
   border: solid $emph-color 5px;
   border-radius: 5%;
-  height: calc(100% - 30px);
-  padding: 5px;
+  /* height: calc(100% - 30px); */
+  /* padding: 5px;
   margin: 20px 10px 0px 10px;
-  box-shadow: 10px 10px 5px $header-color;
+  box-shadow: 10px 10px 5px $header-color; */
 }
 
 .card img {
