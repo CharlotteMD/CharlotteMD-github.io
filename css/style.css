@@ -275,7 +275,18 @@ span {
   padding: 5px;
   margin: 5px;
   background-size: cover;
+}
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+i {
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
 }
 
 .info {
