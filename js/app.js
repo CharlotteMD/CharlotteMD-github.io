@@ -29,12 +29,12 @@ $(() => {
   const $interestsSection = $('#interests-section');
   const $contactSection = $('#contact-section');
 
-  const $gyf = $('.gyf');
-  const $hoverGyf = $('.hoverGyf');
-  const $cheer = $('.cheer');
-  const $hoverCheer = $('.hoverCheer');
-  const $sew = $('.sew');
-  const $hoverSew = $('.hoverSew');
+  // const $gyf = $('.gyf');
+  // const $hoverGyf = $('.hoverGyf');
+  // const $cheer = $('.cheer');
+  // const $hoverCheer = $('.hoverCheer');
+  // const $sew = $('.sew');
+  // const $hoverSew = $('.hoverSew');
 
   $('#fullpage').fullpage();
 
@@ -69,17 +69,17 @@ $(() => {
   });
 
 
-  $gyf.hover(function() {
-    $hoverGyf.css('visibility', 'visible');
-  });
-
-  $cheer.hover(function() {
-    $hoverCheer.css('visibility', 'visible');
-  });
-
-  $sew.hover(function() {
-    $hoverSew.css('visibility', 'visible');
-  });
+  // $gyf.hover(function() {
+  //   $hoverGyf.css('visibility', 'visible');
+  // });
+  //
+  // $cheer.hover(function() {
+  //   $hoverCheer.css('visibility', 'visible');
+  // });
+  //
+  // $sew.hover(function() {
+  //   $hoverSew.css('visibility', 'visible');
+  // });
 
 
   $aboutLink.click(() => {
