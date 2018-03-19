@@ -286,43 +286,56 @@ span {
 }
 
 .gyf {
-  background-image: url('../images/interests/gyf.JPG');
+  background-image: url('../images/interests/15.png');
 }
 
 .cheer {
-  background-image: url('../images/interests/cheer.jpg');
+  background-image: url('../images/interests/4.png');
 }
 
 .sew {
-  background-image: url('../images/interests/sew.jpg');
+  background-image: url('../images/interests/7.png');
 }
 
 .fudge {
-  background-image: url('../images/interests/fudge.jpg');
+  background-image: url('../images/interests/5.png');
 }
 
 .read {
-  background-image: url('../images/interests/books.png');
+  background-image: url('../images/interests/2.png');
 }
 
 .travel {
-  background-image: url('../images/interests/travel.jpg');
+  background-image: url('../images/interests/13.png');
 }
 
 .theatre {
-  background-image: url('../images/interests/theatre.jpeg');
+  background-image: url('../images/interests/11.png');
 }
 
 .language {
-  background-image: url('../images/interests/learn.jpg');
+  background-image: url('../images/interests/9.png');
 }
 
 .info p {
   visibility: hidden;
 }
 
+.info:hover {
+  background-image: none;
+}
+
 .info:hover p{
   visibility: visible;
+  color: #DF4E9F;
+  font-weight: bold;
+}
+
+.info:hover a{
+  visibility: visible;
+  color: #6B717E;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .card:hover {
