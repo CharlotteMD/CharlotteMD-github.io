@@ -33,8 +33,11 @@ $(() => {
   const $hoverGyf = $('.hoverGyf');
   const $cheer = $('.cheer');
   const $hoverCheer = $('.hoverCheer');
+  const $sew = $('.sew');
+  const $hoverSew = $('.hoverSew');
 
   $('#fullpage').fullpage();
+
 
   $('.slider-for').slick({
     slidesToShow: 1,
@@ -53,6 +56,7 @@ $(() => {
     focusOnSelect: true
   });
 
+
   $theme.click(function() {
     $navbar.toggleClass('navbar-pink');
     $intro.toggleClass('intro-pink');
@@ -64,6 +68,7 @@ $(() => {
     $contact.toggleClass('contact-pink');
   });
 
+
   $gyf.hover(function() {
     $hoverGyf.css('visibility', 'visible');
   });
@@ -71,6 +76,11 @@ $(() => {
   $cheer.hover(function() {
     $hoverCheer.css('visibility', 'visible');
   });
+
+  $sew.hover(function() {
+    $hoverSew.css('visibility', 'visible');
+  });
+
 
   $aboutLink.click(() => {
     $('html, body').unbind().animate({scrollTop: $aboutSection.offset().top-175}, 1000);

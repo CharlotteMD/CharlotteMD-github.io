@@ -262,18 +262,17 @@ span {
 .interesting {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   border: solid $emph-color 5px;
   border-radius: 5%;
   width: 250px;
-  /* height: calc(100% - 30px); */
-  /* padding: 5px;
-  margin: 20px 10px 0px 10px;
-  box-shadow: 10px 10px 5px $header-color; */
+  padding: 5px;
+  margin: 5px;
 }
 
 .card img {
@@ -289,6 +288,10 @@ span {
    box-shadow:         inset 0 0 10px $header-color;
 }
 
-.hoverGyf {
+.hoverGyf .hoverCheer .hoverSew {
   visibility: hidden;
+}
+
+.over {
+  margin: 2px;
 }
