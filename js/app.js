@@ -29,6 +29,11 @@ $(() => {
   const $interestsSection = $('#interests-section');
   const $contactSection = $('#contact-section');
 
+  const $gyf = $('.gyf');
+  const $hoverGyf = $('.hoverGyf');
+  const $cheer = $('.cheer');
+  const $hoverCheer = $('.hoverCheer');
+
   $('#fullpage').fullpage();
 
   $('.slider-for').slick({
@@ -57,6 +62,14 @@ $(() => {
     $cv.toggleClass('cv-pink');
     $interests.toggleClass('interests-pink');
     $contact.toggleClass('contact-pink');
+  });
+
+  $gyf.hover(function() {
+    $hoverGyf.css('visibility', 'visible');
+  });
+
+  $cheer.hover(function() {
+    $hoverCheer.css('visibility', 'visible');
   });
 
   $aboutLink.click(() => {
