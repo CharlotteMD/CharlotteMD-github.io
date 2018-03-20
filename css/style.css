@@ -226,10 +226,19 @@ hr {
   font-weight: bold;
 }
 
-.projects-pink .project-nav {
+.projects-pink, .project-nav {
   background-color: #DF4E9F;
   color: white;
-  /*  this isnt working */
+}
+
+.slickImage {
+  justify-content: center;
+  display: flex;
+}
+
+img {
+  justify-content: center;
+  text-align: center;
 }
 
 #skills-section {
@@ -356,5 +365,5 @@ i {
 }
 
 .contact {
-  color: #DF4E9F; 
+  color: #DF4E9F;
 }
