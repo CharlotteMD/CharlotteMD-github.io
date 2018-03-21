@@ -36,7 +36,7 @@ $(() => {
   // const $sew = $('.sew');
   // const $hoverSew = $('.hoverSew');
 
-  $('#fullpage').fullpage();
+  // $('#fullpage').fullpage();
 
 
   $('.slider-for').slick({

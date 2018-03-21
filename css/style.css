@@ -52,12 +52,6 @@ span {
   font-weight: bold;
 }
 
-/* Main content */
-
-main {
-    margin-top: 200px; /* Add a top margin to avoid content overlay */
-}
-
 /* colour changing */
 
 .about {
@@ -102,7 +96,7 @@ main {
 
 .navbar {
   background-color:  #FFBED5;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   width: 100%;
   z-index: 999;
@@ -173,7 +167,7 @@ hr {
   width: 100%;
   height: auto;
   background-position: center;
-  padding: 200px 450px 275px 5px;
+  padding: 475px 450px 275px 5px;
   background-repeat: no-repeat;
 }
 
