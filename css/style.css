@@ -86,6 +86,39 @@ span {
   background-color: #DF4E9F;
 }
 
+.interests-pink .gyf {
+  background-image: url('../images/interests/15.png');
+}
+
+.interests-pink .cheer {
+  background-image: url('../images/interests/4.png');
+}
+
+.interests-pink .sew {
+  background-image: url('../images/interests/7.png');
+}
+
+.interests-pink .fudge {
+  background-image: url('../images/interests/5.png');
+}
+
+.interests-pink .read {
+  background-image: url('../images/interests/2.png');
+}
+
+.interests-pink .travel {
+  background-image: url('../images/interests/13.png');
+}
+
+.interests-pink .theatre {
+  background-image: url('../images/interests/11.png');
+}
+
+.interests-pink .language {
+  background-image: url('../images/interests/9.png');
+}
+
+
 .contact {
   background-color: black;
   width: 100%;
@@ -308,35 +341,35 @@ i {
 }
 
 .gyf {
-  background-image: url('../images/interests/15.png');
+  background-image: url('../images/interests/bw/16.png');
 }
 
 .cheer {
-  background-image: url('../images/interests/4.png');
+  background-image: url('../images/interests/bw/3.png');
 }
 
 .sew {
-  background-image: url('../images/interests/7.png');
+  background-image: url('../images/interests/bw/8.png');
 }
 
 .fudge {
-  background-image: url('../images/interests/5.png');
+  background-image: url('../images/interests/bw/6.png');
 }
 
 .read {
-  background-image: url('../images/interests/2.png');
+  background-image: url('../images/interests/bw/1.png');
 }
 
 .travel {
-  background-image: url('../images/interests/13.png');
+  background-image: url('../images/interests/bw/14.png');
 }
 
 .theatre {
-  background-image: url('../images/interests/11.png');
+  background-image: url('../images/interests/bw/12.png');
 }
 
 .language {
-  background-image: url('../images/interests/9.png');
+  background-image: url('../images/interests/bw/10.png');
 }
 
 /* hover on images for interests */
