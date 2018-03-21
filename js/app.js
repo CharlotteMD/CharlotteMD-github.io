@@ -15,6 +15,7 @@ $(() => {
   const $interests = $('.interests');
   const $contact = $('.contact');
 
+  const $top = $('#top');
   const $aboutLink = $('#about');
   const $projectLink = $('#projects');
   const $skillsLink = $('#skills');
@@ -22,6 +23,7 @@ $(() => {
   const $interestsLink = $('#interests');
   const $contactLink = $('#contact');
 
+  const $logo = $('#logo');
   const $aboutSection = $('#about-section');
   const $projectSection = $('#project-section');
   const $skillsSection = $('#skills-section');
@@ -81,6 +83,9 @@ $(() => {
   //   $hoverSew.css('visibility', 'visible');
   // });
 
+  $logo.click(() => {
+    $('html, body').unbind().animate({scrollTop: $top.offset().top-175}, 1000);
+  });
 
   $aboutLink.click(() => {
     $('html, body').unbind().animate({scrollTop: $aboutSection.offset().top-175}, 1000);
