@@ -207,6 +207,14 @@ hr {
   color: #6B717E;
 }
 
+#roseTint {
+  background-color: #DF4E9F;
+  border: none;
+  padding: 2px 0px;
+  margin: 5px 0px;
+  color: white;
+}
+
 /* splash */
 
 .intro {
@@ -221,6 +229,14 @@ hr {
 
 .intro-pink {
   background-image: url('../images/Charlotte Davies Software Developer.jpg');
+}
+
+.splashText h1 {
+  font-size: 70px;
+}
+
+.splashText h2 {
+  font-size: 50px;
 }
 
 /* about section */

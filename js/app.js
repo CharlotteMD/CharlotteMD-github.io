@@ -84,31 +84,31 @@ $(() => {
   // });
 
   $logo.click(() => {
-    $('html, body').unbind().animate({scrollTop: $top.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $top.offset().top-200}, 1000);
   });
 
   $aboutLink.click(() => {
-    $('html, body').unbind().animate({scrollTop: $aboutSection.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $aboutSection.offset().top-200}, 1000);
   });
 
   $projectLink.click(() => {
-    $('html, body').unbind().animate({scrollTop: $projectSection.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $projectSection.offset().top-200}, 1000);
   });
 
   $skillsLink.click(() => {
-    $('html, body').unbind().animate({scrollTop: $skillsSection.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $skillsSection.offset().top-200}, 1000);
   });
 
   $cvLink.click(() => {
-    $('html, body').unbind().animate({scrollTop: $cvSection.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $cvSection.offset().top-200}, 1000);
   });
 
   $interestsLink.click(() => {
-    $('html, body').unbind().animate({scrollTop: $interestsSection.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $interestsSection.offset().top-200}, 1000);
   });
 
   $contactLink.click(() => {
-    $('html, body').unbind().animate({scrollTop: $contactSection.offset().top-175}, 1000);
+    $('html, body').unbind().animate({scrollTop: $contactSection.offset().top-200}, 1000);
   });
 
 });
