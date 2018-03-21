@@ -262,8 +262,9 @@ hr {
 
 .projects p, .cv p {
   color: white;
-  padding: 20px;
+  padding: 0px 85px;
 }
+
 
 /* projects section */
 
@@ -277,7 +278,7 @@ hr {
 }
 
 .project-nav {
-  background-color: white;
+  background-color: #FFBED5;
   color: #6B717E;
   padding: 5px 0px;
   border-radius: 25%;
@@ -285,7 +286,7 @@ hr {
   font-weight: bold;
 }
 
-.projects-pink, .project-nav {
+.projects-pink .project-nav {
   background-color: #DF4E9F;
   color: white;
 }
@@ -395,15 +396,12 @@ i {
 
 .info:hover p{
   visibility: visible;
-  color: #DF4E9F;
+  color: #6B717E;
   font-weight: bold;
 }
 
-.info:hover a{
-  visibility: visible;
-  color: #6B717E;
-  font-weight: bold;
-  text-decoration: none;
+.interests-pink .info:hover p {
+  color: #DF4E9F;
 }
 
 .card:hover {
@@ -414,15 +412,20 @@ i {
 
 /* contact section */
 .contact {
+  color: white;
+}
+
+.contact-pink {
   color: #DF4E9F;
 }
 
-.contact a {
-  color: #FFBED5;
+a {
+  color: #DF4E9F;
   font-size: 20px;
   text-decoration: none;
   padding: 20px;
 }
 
-.contact a:hover {
-  color: #DF4E9F;
+a:hover {
+  color: #FFBED5;
+  text-decoration: none;
