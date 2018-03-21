@@ -147,6 +147,18 @@ hr {
   background-image: #6B717E;
 }
 
+.navChar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.navChar button {
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 .charlotte h1 {
   color: #DF4E9F;
 }
