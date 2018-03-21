@@ -371,3 +371,13 @@ i {
 .contact {
   color: #DF4E9F;
 }
+
+.contact a {
+  color: #FFBED5;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.contact a:hover {
+  color: #DF4E9F;
