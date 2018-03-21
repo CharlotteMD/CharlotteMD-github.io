@@ -74,6 +74,10 @@ span {
   background-color: #DF4E9F;
 }
 
+.skills-pink #skills-section {
+  color: #FFBED5;
+}
+
 .cv {
   background-color: black;
 }
@@ -128,7 +132,7 @@ span {
 /* navbar w main title */
 
 .navbar {
-  background-color:  #FFBED5;
+  background-color:  black;
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -147,19 +151,18 @@ span {
   width: 100px;
   height: 100px;
   box-shadow: 5px 5px 3px #A4A9B5;
-  background: radial-gradient( white, #6B717E);
+  background: radial-gradient( white, #FFBED5);
   display: block;
 }
 
 .navbar-pink .nav {
-  color: white;
+  color: #DF4E9F;
   border-radius: 100%;
   border: none;
   text-align: center;
   width: 100px;
   height: 100px;
   box-shadow: 5px 5px 3px #A4A9B5;
-  background: radial-gradient( #FFBED5, #FFA2CD);
   display: block;
 }
 
@@ -259,6 +262,7 @@ hr {
 
 .projects p, .cv p {
   color: white;
+  padding: 20px;
 }
 
 /* projects section */
@@ -301,7 +305,7 @@ img {
 
 #skills-section {
   font-size: 50px;
-  color: #FFBED5;
+  color: white;
 }
 
 #skills-section p {
