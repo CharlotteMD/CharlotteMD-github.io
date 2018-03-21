@@ -48,10 +48,53 @@ p {
   font-weight: 50px;
 }
 
+span {
+  font-weight: bold;
+}
+
 /* Main content */
 
 main {
     margin-top: 200px; /* Add a top margin to avoid content overlay */
+}
+
+/* colour changing */
+
+.about {
+  background-color: #6B717E;
+}
+
+.about-pink {
+  background-color: #DF4E9F;
+}
+
+.projects {
+  background-color: black;
+}
+
+.skills {
+  background-color: #6B717E;
+}
+
+.skills-pink {
+  background-color: #DF4E9F;
+}
+
+.cv {
+  background-color: black;
+}
+
+.interests {
+  background-color: #6B717E;
+}
+
+.interests-pink {
+  background-color: #DF4E9F;
+}
+
+.contact {
+  background-color: black;
+  width: 100%;
 }
 
 
@@ -137,44 +180,7 @@ hr {
   background-image: url('../images/Charlotte Davies Software Developer.jpg');
 }
 
-.about {
-  background-color: #6B717E;
-}
-
-.about-pink {
-  background-color: #DF4E9F;
-}
-
-.projects {
-  background-color: black;
-}
-
-.skills {
-  background-color: #6B717E;
-}
-
-.skills-pink {
-  background-color: #DF4E9F;
-}
-
-.cv {
-  background-color: black;
-}
-
-.interests {
-  background-color: #6B717E;
-}
-
-.interests-pink {
-  background-color: #DF4E9F;
-}
-
-.contact {
-  background-color: black;
-  width: 100%;
-}
-
-/* fullPage scroll styling */
+/* about section */
 
 #about-section {
   font-size: 20px;
@@ -188,6 +194,8 @@ hr {
 .about p {
   color: white;
 }
+
+/* carousels for cv and projects */
 
 .projects h2, .cv h2 {
   color: #A4A9B5;
@@ -212,6 +220,8 @@ hr {
 .projects p, .cv p {
   color: white;
 }
+
+/* projects section */
 
 #project-section {
   text-align: center;
@@ -246,10 +256,11 @@ img {
   text-align: center;
 }
 
+/* skills section */
+
 #skills-section {
   font-size: 50px;
   color: #FFBED5;
-
 }
 
 #skills-section p {
@@ -257,20 +268,17 @@ img {
   font-size: 25px;
 }
 
-#cv-section {
-  /* background-color: black; */
-  /* color: white; */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#contact-section {
-  /* background-color: #A4A9B5; */
-  /* color: white; */
+i {
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
 }
-
-span {
-  font-weight: bold;
-}
-
 
 /* Interests cards */
 .interesting {
@@ -289,25 +297,6 @@ span {
   padding: 5px;
   margin: 5px;
   background-size: cover;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-i {
-  flex-wrap: wrap;
-  padding: 20px;
-  margin: 20px;
-}
-
-.info {
-  height: 200px;
-  width: 200px;
-  background-size: cover;
-  border-radius: 5%;
 }
 
 .gyf {
@@ -342,6 +331,15 @@ i {
   background-image: url('../images/interests/9.png');
 }
 
+/* hover on images for interests */
+
+.info {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 5%;
+}
+
 .info p {
   visibility: hidden;
 }
@@ -369,6 +367,7 @@ i {
    box-shadow:         inset 0 0 10px $header-color;
 }
 
+/* contact section */
 .contact {
   color: #DF4E9F;
 }
