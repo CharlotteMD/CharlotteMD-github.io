@@ -57,6 +57,7 @@ a {
   font-size: 20px;
   text-decoration: none;
   padding: 20px;
+  cursor: url('../images/wand.png'), auto;
 }
 
 a:hover {
@@ -233,6 +234,11 @@ hr {
   font-size: 30px;
 }
 
+.projects h3:hover, .cv h3:hover {
+  color: #FFA2CD;
+  font-size: 30px;
+}
+
 .titles {
   color: #FFBED5;
   font-size: 30px;
@@ -271,6 +277,7 @@ hr {
   border-radius: 25%;
   margin: 5px;
   font-weight: bold;
+  cursor: url('../images/wand.png'), auto;
 }
 
 .projects-pink .project-nav {
@@ -433,6 +440,7 @@ i {
 
 .info p {
   visibility: hidden;
+  padding-top: 15px;
 }
 
 .info:hover {
@@ -458,6 +466,9 @@ i {
   color: #DF4E9F;
 }
 
+.interests-pink .info p {
+  color: #FFBED5;
+}
 
 /* contact section */
 
