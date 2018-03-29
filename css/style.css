@@ -8,8 +8,8 @@ body {
 }
 
 .section {
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
 }
 
 h1 {
@@ -167,6 +167,7 @@ hr {
 
 .intro {
   margin-top: 50px;
+  margin-bottom: -30px;
   background-image: url('../images/charlotte3.png');
   width: 100%;
   height: auto;
