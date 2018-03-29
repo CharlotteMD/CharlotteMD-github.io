@@ -94,11 +94,13 @@ img {
   box-shadow: 5px 5px 3px #A4A9B5;
   background: radial-gradient( white, #FFBED5);
   display: block;
+  cursor: url('../images/wand.png'), auto;
 }
 
 .nav:hover {
   background: radial-gradient(#6B717E, white);
   color: white;
+  cursor: url('../images/wand.png'), auto;
 }
 
 .navbar-pink .nav {
@@ -110,11 +112,13 @@ img {
   height: 100px;
   box-shadow: 5px 5px 3px #A4A9B5;
   display: block;
+  cursor: url('../images/wand.png'), auto;
 }
 
 .navbar-pink .nav:hover {
   background: radial-gradient( white, #FFBED5);
   color: #DF4E9F;
+  cursor: url('../images/wand.png'), auto;
 }
 
 hr {
@@ -135,6 +139,11 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #FFBED5;
+  cursor: url('../images/wand.png'), default;
+}
+
+.navChar button:hover {
+  cursor: url('../images/wand.png'), default;
 }
 
 .charlotte h1 {
@@ -151,6 +160,7 @@ hr {
   padding: 2px 0px;
   margin: 5px 0px;
   color: white;
+  cursor: url('../images/wand.png'), auto;
 }
 
 /* splash */
@@ -315,67 +325,73 @@ i {
   background-color: #DF4E9F;
 }
 
-.gyf {
+#gyf {
   background-image: url('../images/interests/bw/16.png');
+  margin: 0 auto;
 }
 
-.cheer {
+#cheer {
   background-image: url('../images/interests/bw/3.png');
+  margin: 0 auto;
 }
 
-.sew {
+#sew {
   background-image: url('../images/interests/bw/8.png');
+  margin: 0 auto;
 }
 
-.fudge {
+#fudge {
   background-image: url('../images/interests/bw/6.png');
+  margin: 0 auto;
 }
 
-.read {
+#read {
   background-image: url('../images/interests/bw/1.png');
+  margin: 0 auto;
 }
 
-.travel {
+#travel {
   background-image: url('../images/interests/bw/14.png');
+  margin: 0 auto;
 }
 
-.theatre {
+#theatre {
   background-image: url('../images/interests/bw/12.png');
 }
 
-.language {
+#language {
   background-image: url('../images/interests/bw/10.png');
 }
 
-.interests-pink .gyf {
+.interests-pink #gyf {
   background-image: url('../images/interests/15.png');
 }
 
-.interests-pink .cheer {
+.interests-pink #cheer {
   background-image: url('../images/interests/4.png');
 }
 
-.interests-pink .sew {
+.interests-pink #sew {
   background-image: url('../images/interests/7.png');
 }
 
-.interests-pink .fudge {
+.interests-pink #fudge {
   background-image: url('../images/interests/5.png');
 }
 
-.interests-pink .read {
+.interests-pink #read {
   background-image: url('../images/interests/2.png');
 }
 
-.interests-pink .travel {
+.interests-pink #travel {
   background-image: url('../images/interests/13.png');
 }
 
-.interests-pink .theatre {
+.interests-pink #theatre {
   background-image: url('../images/interests/11.png');
 }
 
-.interests-pink .language {
+.interests-pink #language {
   background-image: url('../images/interests/9.png');
 }
 
@@ -407,9 +423,10 @@ i {
   width: 200px;
   background-size: cover;
   border-radius: 5%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
+  margin: 0 auto !important;
 }
 
 .info p {
@@ -417,7 +434,7 @@ i {
 }
 
 .info:hover {
-  background-image: none;
+  background-image: none !important;
 }
 
 .info:hover p {
