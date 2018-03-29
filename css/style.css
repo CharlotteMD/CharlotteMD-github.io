@@ -192,6 +192,7 @@ hr {
 
 .about {
   background-color: #6B717E;
+  padding: 20px;
 }
 
 .about-pink {
@@ -216,6 +217,7 @@ hr {
 
 .projects, .cv {
   background-color: black;
+  padding: 20px;
 }
 
 .projects h2, .cv h2 {
@@ -289,6 +291,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 20px;
 }
 
 .skills-pink {
@@ -320,6 +323,7 @@ i {
 
 .interests {
   background-color: #6B717E;
+  padding: 20px;
 }
 
 .interests-pink {
@@ -424,9 +428,6 @@ i {
   width: 200px;
   background-size: cover;
   border-radius: 5%;
-  /* flex-wrap: wrap;
-  display: flex;
-  justify-content: center; */
   margin: 0 auto !important;
 }
 
@@ -455,6 +456,7 @@ i {
   background-color: black;
   width: 100%;
   color: white;
+  padding: 20px;
 }
 
 .contact-pink {
