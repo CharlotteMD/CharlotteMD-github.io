@@ -70,19 +70,6 @@ $(() => {
     $contact.toggleClass('contact-pink');
   });
 
-
-  // $gyf.hover(function() {
-  //   $hoverGyf.css('visibility', 'visible');
-  // });
-  //
-  // $cheer.hover(function() {
-  //   $hoverCheer.css('visibility', 'visible');
-  // });
-  //
-  // $sew.hover(function() {
-  //   $hoverSew.css('visibility', 'visible');
-  // });
-
   $logo.click(() => {
     $('html, body').unbind().animate({scrollTop: $top.offset().top-200}, 1000);
   });

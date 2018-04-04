@@ -482,3 +482,199 @@ i {
 .contact-pink {
   color: #DF4E9F;
 }
+
+/* @media screen and (max-width: 770px) {
+
+ .nav {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navChar {
+    width: 275px;
+  }
+
+  .charlotte h1 {
+    font-size: 35px;
+  }
+
+  .charlotte h2 {
+    font-size: 25px;
+  }
+
+  #roseTint {
+    font-size: 12px;
+  }
+
+  .navbar-pink .nav {
+     width: 75px;
+     height: 75px;
+   }
+
+  .navbar-pink .navChar {
+     width: 275px;
+   }
+
+  .navbar-pink .charlotte h1 {
+     font-size: 35px;
+   }
+
+   .navbar-pink .charlotte h2 {
+     font-size: 25px;
+   }
+
+   .navbar-pink #roseTint {
+     font-size: 12px;
+   }
+
+  .projects p, .cv p {
+    font-size: 14px;
+  }
+
+  .projects-pink p, .cv-pink p {
+    font-size: 14px;
+  }
+
+  #project-section img {
+    max-height: 275px;
+  }
+
+  .skills {
+    font-size: 50px;
+    padding: 3px;
+  }
+
+  .skills-pink {
+    font-size: 50px;
+    padding: 3px;
+  }
+
+  #skills-section p {
+    font-size: 15px;
+  }
+} */
+
+/* mq - 425 */
+
+@media screen and (max-width: 350px) {
+
+  body {
+    max-width: 100%;
+    padding: 0px;
+  }
+
+  .section {
+    padding: 1px;
+    margin: 1px;
+    width: 250px;
+  }
+
+  .navbar {
+    justify-content: flex-start;
+    max-width: 250px;
+  }
+
+  .navbar-pink {
+    justify-content: flex-start;
+    max-width: 320px;
+  }
+
+  .nav {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    font-size: 7px;
+  }
+
+  .navbar-pink .nav {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    font-size: 7px;
+  }
+
+  .navChar button {
+    width: 300px;
+  }
+
+  .charlotte h1 {
+     font-size: 25px;
+   }
+
+  .charlotte h2 {
+    font-size: 20px;
+  }
+
+  .charlotte h1 {
+     font-size: 25px;
+   }
+
+  .charlotte h2 {
+    font-size: 20px;
+  }
+
+  .navChar button {
+    max-width: 210px;
+  }
+
+  hr {
+    width: 140px;
+  }
+
+ .intro {
+   margin-top: 200px;
+   padding: 360px 50px 207px 0px;
+   margin-bottom: -200px;
+  }
+
+  .projects p, .cv p {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #project-section img {
+    max-height: 170px;
+
+  }
+
+  .project-nav {
+    font-size: 7px;
+  }
+
+  .skills {
+    padding: 0px;
+  }
+
+  #skills-section p {
+    font-size: 12px;
+  }
+
+  #skills-section {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .info {
+    width: 180px;
+  }
+
+  .info:hover p {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .interests {
+    padding: 0px;
+  }
+
+}
