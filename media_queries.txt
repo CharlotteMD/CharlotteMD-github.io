@@ -1,0 +1,73 @@
+
+/* @media screen and (max-width: 770px) {
+
+ .nav {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navChar {
+    width: 275px;
+  }
+
+  .charlotte h1 {
+    font-size: 35px;
+  }
+
+  .charlotte h2 {
+    font-size: 25px;
+  }
+
+  #roseTint {
+    font-size: 12px;
+  }
+
+  .navbar-pink .nav {
+     width: 75px;
+     height: 75px;
+   }
+
+  .navbar-pink .navChar {
+     width: 275px;
+   }
+
+  .navbar-pink .charlotte h1 {
+     font-size: 35px;
+   }
+
+   .navbar-pink .charlotte h2 {
+     font-size: 25px;
+   }
+
+   .navbar-pink #roseTint {
+     font-size: 12px;
+   }
+
+  .projects p, .cv p {
+    font-size: 14px;
+  }
+
+  .projects-pink p, .cv-pink p {
+    font-size: 14px;
+  }
+
+  #project-section img {
+    max-height: 275px;
+  }
+
+  .skills {
+    font-size: 50px;
+    padding: 3px;
+  }
+
+  .skills-pink {
+    font-size: 50px;
+    padding: 3px;
+  }
+
+  #skills-section p {
+    font-size: 15px;
+  }
+} */
+
+/* mq - 425 */
